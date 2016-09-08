@@ -19,7 +19,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OK"
+        android:text="OK."
         android:id="@+id/button"
         android:textColor="@color/colorPrimaryDark"
         android:shadowColor="@color/colorAccent"
@@ -27,4 +27,14 @@
         android:layout_toRightOf="@+id/textView"
         android:layout_toEndOf="@+id/textView"
         android:layout_marginTop="31dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Testando alteração do código no Github direto do Android Studio"
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:textSize="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
