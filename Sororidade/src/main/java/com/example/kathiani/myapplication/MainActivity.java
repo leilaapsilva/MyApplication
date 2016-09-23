@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void mensagem (View View) {
-        showMessage("Teste", "Mensagem");
+        showMessage("Teste", "Mensagem.");
         return;
     }
 
